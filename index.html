@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RF Premier Ventures</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;scroll-behavior:smooth}
+body{background:#030303;color:white}
+
+header{
+position:fixed;
+width:100%;
+top:0;
+z-index:1000;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 40px;
+background:rgba(0,0,0,0.85);
+backdrop-filter:blur(10px);
+border-bottom:1px solid #caa84a;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:12px;
+}
+
+.logo img{height:42px}
+
+nav a{
+color:white;
+margin-left:25px;
+text-decoration:none;
+font-size:14px;
+letter-spacing:.5px;
+opacity:.8
+}
+
+nav a:hover{color:#d4af37}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.95)),url('https://images.unsplash.com/photo-1460472178825-e5240623afd5?q=80&w=2070&auto=format&fit=crop') center/cover;
+}
+
+.hero img{
+width:120px;
+margin-bottom:20px;
+filter:drop-shadow(0 0 10px rgba(212,175,55,.5));
+}
+
+.hero h1{
+font-size:52px;
+color:#d4af37;
+letter-spacing:2px;
+margin-bottom:15px
+}
+
+.hero p{
+max-width:650px;
+color:#ccc;
+line-height:1.6;
+}
+
+.btn{
+margin-top:25px;
+padding:12px 28px;
+background:linear-gradient(135deg,#d4af37,#b8962e);
+color:black;
+border-radius:30px;
+text-decoration:none;
+font-weight:600;
+}
+
+section{
+padding:100px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+h2{
+text-align:center;
+color:#d4af37;
+margin-bottom:40px;
+font-size:30px;
+}
+
+.divider{
+width:80px;
+height:2px;
+background:#d4af37;
+margin:15px auto 40px auto;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:linear-gradient(145deg,#0a0a0a,#050505);
+padding:28px;
+border-radius:14px;
+border:1px solid #1a1a1a;
+transition:.4s
+}
+
+.card:hover{
+transform:translateY(-8px);
+border:1px solid #d4af37;
+box-shadow:0 0 25px rgba(212,175,55,.15)
+}
+
+.card h3{
+color:#d4af37;
+margin-bottom:10px
+}
+
+.card p{color:#bbb;line-height:1.5;font-size:14px}
+
+.about{
+background:#060606;
+padding:35px;
+border-radius:12px;
+border:1px solid #1a1a1a;
+color:#ccc;
+line-height:1.7;
+text-align:center
+}
+
+.ceo{
+display:grid;
+grid-template-columns:220px 1fr;
+gap:40px;
+align-items:center;
+background:#060606;
+padding:30px;
+border-radius:12px;
+border:1px solid #1a1a1a
+}
+
+.ceo img{
+width:220px;
+border-radius:10px;
+border:2px solid #d4af37
+}
+
+.contact{
+text-align:center;
+border-top:1px solid #1a1a1a
+}
+
+.contact img{
+width:90px;
+margin-bottom:10px
+}
+
+footer{
+text-align:center;
+padding:25px;
+color:#777
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+padding:14px 16px;
+border-radius:50px;
+color:white;
+text-decoration:none;
+font-weight:600
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">
+<img src="logo.png">
+</div>
+<nav>
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#about">About</a>
+<a href="#ceo">CEO</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero" id="home">
+<img src="logo.png">
+<h1>RF PREMIER VENTURES</h1>
+<p>Premium solutions in event management, consultancy, healthcare products and early childhood services. Delivering excellence, innovation and professional corporate services.</p>
+<a class="btn" href="#services">Explore Services</a>
+</section>
+
+<section id="services">
+<h2>Our Services</h2>
+<div class="divider"></div>
+<div class="grid">
+
+<div class="card">
+<h3>Event Management</h3>
+<p>Professional planning and execution for corporate, private and large scale events with premium quality standards.</p>
+</div>
+
+<div class="card">
+<h3>Event Consultancy</h3>
+<p>Strategic planning and consultation to ensure successful, impactful and well-managed events.</p>
+</div>
+
+<div class="card">
+<h3>Healthcare Products</h3>
+<p>Providing quality healthcare and wellness solutions focused on improving everyday lifestyle.</p>
+</div>
+
+<div class="card">
+<h3>Early Childhood Services</h3>
+<p>Supporting early childhood development and education services with professional solutions.</p>
+</div>
+
+</div>
+</section>
+
+<section id="about">
+<h2>About RF Premier Ventures</h2>
+<div class="divider"></div>
+<div class="about">
+RF Premier Ventures is a corporate solutions company based in Kuala Lumpur, Malaysia. The company focuses on delivering premium services across multiple industries including event management, event consultancy, healthcare products and early childhood services. Our mission is to create meaningful impact through innovation, professionalism and trusted partnerships.
+</div>
+</section>
+
+<section id="ceo">
+<h2>Chief Executive Officer</h2>
+<div class="divider"></div>
+<div class="ceo">
+<img src="ceo.jpg">
+<div>
+<h3 style="color:#d4af37">Rina Fadzil</h3>
+<p style="color:#bbb;margin-top:10px;line-height:1.6">
+Rina Fadzil is the Chief Executive Officer of RF Premier Ventures. She leads the company with a strong vision to deliver premium services across multiple sectors. Her leadership focuses on innovation, professionalism and building long-term value for clients and communities.
+</p>
+</div>
+</div>
+</section>
+
+<section id="contact" class="contact">
+<h2>Contact Us</h2>
+<div class="divider"></div>
+<img src="logo.png">
+<p>Mil_na@yahoo.com</p>
+<p>Kuala Lumpur, Malaysia</p>
+<p>WhatsApp: 016-539 5398</p>
+</section>
+
+<footer>
+© RF Premier Ventures 2026. All Rights Reserved
+</footer>
+
+<a class="whatsapp" href="https://wa.me/60165395398">WhatsApp</a>
+
+</body>
+</html>
